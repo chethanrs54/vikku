@@ -1,0 +1,29 @@
+<div class="container">
+    <h1>Student Registration Form</h1>
+    <form id="registration-form">
+        <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" class="form-control" id="age" name="age" required>
+        </div>
+        <div class="form-group">
+            <label for="course">Course:</label>
+            <input type="text" class="form-control" id="course" name="course" required>
+        </div>
+        <div class="form-group">
+            <label for="food-preference">Food Preference:</label>
+            <select class="form-control" id="food-preference" name="food-preference">
+                <option value="vegetarian">Vegetarian</option>
+                <option value="non-vegetarian">Non-Vegetarian</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
